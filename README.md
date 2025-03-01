@@ -1,0 +1,19 @@
+# capacitor-stream-fetch
+
+Fetch with stream support
+
+## Install
+
+```bash
+npm install capacitor-stream-fetch
+npx cap sync
+```
+
+## API
+
+<docgen-index></docgen-index>
+
+<docgen-api>
+<!-- run docgen to generate docs from the source -->
+<!-- More info: https://github.com/ionic-team/capacitor-docgen -->
+</docgen-api>
