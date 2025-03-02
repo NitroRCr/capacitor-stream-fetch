@@ -4,9 +4,11 @@ Fetch with stream support.
 
 Use cases: AI chat completion, SSE, and other uses that require streaming response and CORS.
 
-Support Capacitor v7.
+- Support Capacitor v7.
 
-Only support android.
+- Only support android.
+
+- Written in kotlin, so you need to configure kotlin for your project before using it.
 
 ## Install
 
@@ -52,6 +54,7 @@ Execute a HTTP request with streaming response
 
 --------------------
 
+
 ### addListener(string, ...)
 
 ```typescript
@@ -69,6 +72,7 @@ Add a listener for a specific event
 
 --------------------
 
+
 ### removeAllListeners()
 
 ```typescript
@@ -81,7 +85,9 @@ Remove all listeners for this plugin
 
 --------------------
 
+
 ### Interfaces
+
 
 #### StreamResponse
 
@@ -91,6 +97,7 @@ Remove all listeners for this plugin
 | **`status`**     | <code>number</code>                       |
 | **`statusText`** | <code>string</code>                       |
 | **`headers`**    | <code>Record&lt;string, string&gt;</code> |
+
 
 #### PluginListenerHandle
 
