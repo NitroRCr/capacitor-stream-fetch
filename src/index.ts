@@ -43,8 +43,7 @@ export function fetch(url: string, options?: RequestInit): Promise<Response> {
   const headers: Record<string, string> = {
     'Accept': 'application/json, text/plain, */*',
     'Accept-Language': 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
-    'User-Agent': navigator.userAgent,
-    'Origin': location.origin
+    'User-Agent': navigator.userAgent
   };
 
   for (const [key, value] of Object.entries(Object.fromEntries(new Headers(_headers) as any))) {
