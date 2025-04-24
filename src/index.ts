@@ -98,10 +98,6 @@ export function fetch(url: string, options?: RequestInit): Promise<Response> {
 
       return response;
     })
-    .catch((error) => {
-      console.error('Stream fetch error:', error);
-      return new Response('', { status: 599 });
-    });
 }
 
 export * from './definitions';
